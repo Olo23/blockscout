@@ -16,11 +16,11 @@ echo 'COIN=Atheios'
 export 'ETHEREUM_JSONRPC_VARIANT=geth'
 echo 'ETHEREUM_JSONRPC_VARIANT=geth'
 
-export 'ETHEREUM_JSONRPC_HTTP_URL=http://localhost:8545'
-echo 'ETHEREUM_JSONRPC_HTTP_URL=http://localhost:8545'
+export 'ETHEREUM_JSONRPC_HTTP_URL=https://rpc.fallengravity.xyz'
+echo 'ETHEREUM_JSONRPC_HTTP_URL=https://rpc.fallengravity.xyz'
 
-export 'ETHEREUM_JSONRPC_WS_URL=ws://localhost:8546'
-echo 'ETHEREUM_JSONRPC_WS_URL=ws://localhost:8546'
+export 'ETHEREUM_JSONRPC_WS_URL=ws://155.138.194.66:8547'
+echo 'ETHEREUM_JSONRPC_WS_URL=ws://155.138.194.66:8547'
 
 export "BLOCKSCOUT_VERSION=V1.0.0 - Atheios"
 echo "BLOCKSCOUT_VERSION=V1.0.0 - Atheios"
