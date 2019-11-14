@@ -1,7 +1,7 @@
 // general
-$primary: #5c34a2;
-$secondary: #87e1a9;
-$tertiary: #bf9cff;
+$primary: #2b7aae;
+$secondary: #000840;
+$tertiary: #9cb1ff;
 $additional-font: #fff;
 
 // footer
@@ -25,7 +25,7 @@ $dashboard-banner-gradient-start: $primary; // gradient begin
 
 $dashboard-banner-gradient-end: lighten($primary, 5); // gradient end
 
-$dashboard-banner-network-plain-container-background-color: #8258cd; // stats bg
+$dashboard-banner-network-plain-container-background-color: #2b7aae; // stats bg
 
 
 // navigation
@@ -56,8 +56,8 @@ $card-tab-active: $primary;
 	.dashboard-banner-container {
 	  background-image: linear-gradient(
 	    to bottom,
-	    $dashboard-banner-gradient-start,
-	    $dashboard-banner-gradient-end
+	    #2b7aae,
+	    #002944
 	  );
 	}
 }
@@ -77,4 +77,4 @@ $api-text-monospace-color: $primary;
 // Dark theme
 $dark-primary: #9b62ff;
 $dark-secondary: #87e1a9;
-$dark-primary-alternate: #7e50d0; 
+$dark-primary-alternate: #7e50d0;
