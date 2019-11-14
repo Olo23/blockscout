@@ -1,25 +1,19 @@
 @import "./mixins";
-
 /* Phoenix flash messages */
 .alert:empty {
   display: none;
 }
-
 /* This file is for your main application css. */
-
 // Font Awesome
 $fa-font-path: "~@fortawesome/fontawesome-free/webfonts";
 @import "fontawesome";
 @import "fa-brands";
 @import "fa-regular";
 @import "fa-solid";
-
 // Bootstrap Core CSS
 @import "node_modules/bootstrap/scss/functions";
 @import "node_modules/bootstrap/scss/mixins";
-
 @import "theme/variables";
-
 @import "node_modules/bootstrap/scss/root";
 @import "node_modules/bootstrap/scss/reboot";
 @import "node_modules/bootstrap/scss/grid";
@@ -38,7 +32,6 @@ $fa-font-path: "~@fortawesome/fontawesome-free/webfonts";
 @import "node_modules/bootstrap/scss/utilities/position";
 @import "node_modules/bootstrap/scss/utilities/borders";
 @import "node_modules/bootstrap/scss/progress";
-
 // Bootstrap Components
 @import "node_modules/bootstrap/scss/alert";
 @import "node_modules/bootstrap/scss/badge";
@@ -50,13 +43,10 @@ $fa-font-path: "~@fortawesome/fontawesome-free/webfonts";
 @import "node_modules/bootstrap/scss/pagination";
 @import "node_modules/bootstrap/scss/tables";
 @import "node_modules/bootstrap/scss/transitions";
-
 // Code highlight
 @import "node_modules/highlight.js/styles/default";
-
 //Custom theme
 @import "theme/fonts";
-
 // Custom SCSS
 @import "layout";
 @import "typography";
@@ -116,7 +106,9 @@ $fa-font-path: "~@fortawesome/fontawesome-free/webfonts";
 @import "components/_erc721_token_image_container";
 @import "components/_inventory_token_instance_image_container";
 
-@import "theme/dark-theme";
+// Dark Theme
+// @import "theme/dark-theme";
+@import "atheios_dark-theme";
 
 :export {
   dashboardBannerChartAxisFontColor: $dashboard-banner-chart-axis-font-color;
