@@ -69,8 +69,8 @@ defmodule Indexer.Block.Fetcher do
   # These are all the *default* values for options.
   # DO NOT use them directly in the code.  Get options from `state`.
 
-  @receipts_batch_size 2
-  @receipts_concurrency 0
+  @receipts_batch_size 100
+  @receipts_concurrency 1
   @geth_block_limit 128
 
   @doc false
