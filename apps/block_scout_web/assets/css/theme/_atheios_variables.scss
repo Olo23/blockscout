@@ -5,16 +5,16 @@ $tertiary: #9cb1ff;
 $additional-font: #fff;
 
 // footer
-$footer-background-color: #3c226a;
+$footer-background-color: #2b7aae;
 $footer-title-color: #fff;
-$footer-text-color: #bda6e7;
+$footer-text-color: #fff;
 $footer-item-disc-color: $secondary;
 .footer-logo { filter: brightness(0) invert(1); }
 
 // dashboard
 $dashboard-line-color-price: $tertiary; // price left border
 
-$dashboard-banner-chart-legend-label-color: #dcc8ff;
+$dashboard-banner-chart-legend-label-color: #fff;
 $dashboard-stats-item-label-color: $dashboard-banner-chart-legend-label-color;
 $dashboard-banner-chart-legend-value-color: #fff; // chart labels
 $dashboard-stats-item-value-color: #fff; // stat values
