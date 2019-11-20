@@ -22,14 +22,14 @@ echo 'ETHEREUM_JSONRPC_HTTP_URL=http://155.138.194.66:8545'
 export 'ETHEREUM_JSONRPC_WS_URL=ws://155.138.194.66:8547'
 echo 'ETHEREUM_JSONRPC_WS_URL=ws://155.138.194.66:8547'
 
-export "BLOCKSCOUT_VERSION=V1.0.0 - Atheios"
-echo "BLOCKSCOUT_VERSION=V1.0.0 - Atheios"
+export "BLOCKSCOUT_VERSION=V1.1.0 - Atheios"
+echo "BLOCKSCOUT_VERSION=V1.1.0 - Atheios"
 
 export 'LINK_TO_OTHER_EXPLORERS=false'
 echo 'LINK_TO_OTHER_EXPLORERS=false'
 
-export 'RELEASE_LINK=https://github.com/poanetwork/blockscout/releases/tag/${BLOCKSCOUT_VERSION}  '
-echo 'RELEASE_LINK=https://github.com/poanetwork/blockscout/releases/tag/${BLOCKSCOUT_VERSION}  '
+export 'RELEASE_LINK=https://github.com/athofficial/blockscout  '
+echo 'RELEASE_LINK=https://github.com/athofficial/blockscout'
 
 export 'SUBNETWORK=ATH'
 echo 'SUBNETWORK=ATH'
